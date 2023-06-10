@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner-container{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(192, 240, 240);
+}
+.banner-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fa-check{
+    padding: 10px;
+}
+.about-us{
+    font-size: 20px;
+    font-weight:500;
+}
+a{
+    font-weight: bold;
+}
+.banner-img-container{
+    background-image: url('src/assets/mantax.jpg');
+    background-position: center;
+    background-size: 400px;
+  width: 700px;
+  height: 623px;}

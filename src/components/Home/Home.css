@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home-container{
+    background-image: url('src/assets/fin2.jpg');
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    height: 100vh;
+}
+.text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+header{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+.text-content{
+ width: 400px;
+ height: 150px;
+ text-align: center;
+ font-weight: bold;
+ margin: 30px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn{
+    background-color: green;
+    color: white;
+    font-size: 32px;
+    border-radius: 20px;
+}
+.btn:hover{
+background-color: black;
+}

@@ -1,0 +1,22 @@
+.why-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-color: #f1f8ff;
+  }
+  
+  .why-us-header {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    text-decoration: underline;
+  }
+  
+  .why-us-image {
+    width: 80%;
+    height: 100px;
+  }
+  
