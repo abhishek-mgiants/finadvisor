@@ -1,12 +1,15 @@
 import React from 'react';
-import './Taxation.css'; // Assuming you have a separate CSS file for styling
+import './Taxation.css';
 
 const Taxation = () => {
   return (
     <div className="taxation-container">
-      <div className="banner">
-        <h1 className="banner-title">TAXATION</h1>
+      <div class="hero">
+  <div class="content">
+    <h2>TAXATION</h2>
       </div>
+  <div class="waves"></div>
+</div>
 
       <div className="content-container">
         <div className="section section-1">

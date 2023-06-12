@@ -7,7 +7,7 @@ const ServiceCard = () => {
       imgPath: 'https://images.pexels.com/photos/730547/pexels-photo-730547.jpeg?auto=compress&cs=tinysrgb&w=600',
       heading: 'Taxation',
       description: 'Description random text to fill the container ',
-    },
+    }, 
     {
       imgPath: 'https://images.pexels.com/photos/534216/pexels-photo-534216.jpeg?auto=compress&cs=tinysrgb&w=600',
       heading: 'Compliance',

@@ -10,6 +10,7 @@ import Taxation from './components/Taxation/Taxation';
 import Team from './components/Team/Team';
 import WhyUs from './components/WhyUs/WhyUs';
 import Footer from './components/Footer/Footer';
+import CaseStudies from './components/CaseStudy/CaseStudy';
 
 const App = () => {
   return (
@@ -22,8 +23,9 @@ const App = () => {
       <Banner />
       <ServiceCard />
       <WhyUs />
-      <Team />
-      <FeedbackCard />
+      <Team/>
+      <CaseStudies/>
+      <FeedbackCard/>
       <Footer/>
     </Router>
   );

@@ -1,0 +1,89 @@
+.casestudies-container {
+    width: 100vw;
+    margin: 20px auto;
+    padding: 20px 50px;
+    background: linear-gradient(to right, #E4F1FE, #C0E6FA);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 38px;
+    text-decoration: underline;
+  }
+  
+  p {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    
+  }
+  
+  .casestudies-card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .casestudies-card {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .casestudies-card img {
+    display: block;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    margin-bottom: 5px;
+  }
+  
+  .casestudies-card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .casestudies-card:hover {
+    border-color: #000;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+  }
+  
+  .casestudies-card:hover .casestudies-card-overlay {
+    opacity: 1;
+  }
+  
+  .casestudies-card-overlay h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .casestudies-card-overlay button {
+    padding: 5px 10px;
+    background-color: rgb(246, 83, 83);
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

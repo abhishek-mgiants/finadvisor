@@ -16,6 +16,9 @@
   align-items: center;
 }
 
+.navbar-logo:hover{
+  cursor: pointer;
+}
 .logo-text {
   font-size: 32px;
 }
