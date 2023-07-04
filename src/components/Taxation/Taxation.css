@@ -19,6 +19,7 @@
   overflow: hidden;
   margin: 10px;
   border-radius: 5px;
+  border: 1px solid red;
 }
 
 .hero h2 {
@@ -161,6 +162,7 @@
       padding: 8px;
       border-radius: 4px;
       border: 1px solid #ccc;
+      
     }
     
     button[type='submit'] {

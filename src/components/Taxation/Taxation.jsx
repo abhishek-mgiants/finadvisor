@@ -4,11 +4,11 @@ import './Taxation.css';
 const Taxation = () => {
   return (
     <div className="taxation-container">
-      <div class="hero">
-  <div class="content">
+      <div className="hero">
+  <div className="content">
     <h2>TAXATION</h2>
       </div>
-  <div class="waves"></div>
+  <div className="waves"></div>
 </div>
 
       <div className="content-container">

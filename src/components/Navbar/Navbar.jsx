@@ -10,12 +10,12 @@ const Navbar = () => {
        <>
        <div className="navbar-container">
         <div  className="navbar-logo">
-           <p className='logo-text' onClick={()=>handleLogoClick()}>FinAdvisor</p>
+           <p className='logo-text' onClick={()=>handleLogoClick()}>Taxवित्त</p>
         </div>
         <div >
           <ul className="navlinks">
             
-            <li className='menu-item'><a href="/taxation"  className="links">Taxation</a>
+            <li ><a href="/taxation"  className="links">Taxation</a>
             
             </li>
             <li><a href="#" className="links">Funding</a></li>

@@ -16,7 +16,7 @@ const Team = () => {
           <h2 className="name">John Doe</h2>
           <p className="designation">CEO of FinAdvisor</p>
         </div>
-      </div>
+      </div> 
 
       <div className="team-member-lower">
         

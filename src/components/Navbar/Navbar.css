@@ -32,63 +32,25 @@
   margin-left: 100px; /* Adjust the margin value as needed */
 }
 
-a:link {
+.navlinks a:link {
   text-decoration: none;
 }
 
-.links {
+
+.navlinks .links {
   margin: 8px 12px;
   padding: 8px 12px;
+  transition: all 0.1s;
+  
 }
 
-.links:hover {
-  filter: drop-shadow(0 10px 14px #4444dd);
-  border-radius: 10px;
+.navlinks .links:hover {
+  filter: drop-shadow(0 10px 14px white);
+  border-left: 2px solid black;
+  border-right: 2px solid black;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.drop-menu {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.menu-item {
-  display: inline-block;
-  position: relative;
-}
-
-.menu-item a {
-  text-decoration: none;
-  padding: 6px 10px;
-  color: black;
-  display: block;
-}
-
-.drop-menu {
-  display: none;
-  position: absolute;
-  background-color: #fff;
-  min-width: 100px;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
-}
-
-.drop-menu-item {
-  width: 100%;
-}
-
-.drop-menu-item:hover {
-  background-color: #eee;
-}
-
-.drop-menu-item a {
-  color: #555;
-}
-
-.menu-item:hover .drop-menu,
-.links:hover .drop-menu {
-  display: block;
-}

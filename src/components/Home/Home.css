@@ -18,10 +18,10 @@
     align-items: center;
     flex-direction: column;  
 }
-header{
-    text-align: center;
-    font-size: 48px;
-    font-weight: bold;
+.home-heading{
+    font-size: 58px;
+    line-height: 20px;
+    font-weight: bolder;
 }
 .text-content{
  width: 400px;

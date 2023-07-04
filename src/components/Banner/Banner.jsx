@@ -9,15 +9,15 @@ const Banner = () => {
             <section className='banner-cta'>
                 <ul>
                   <li className="about-us">
-                  <i class="fa-solid fa-check" style={{color: 'green'}}> </i>
+                  <i className="fa-solid fa-check" style={{color: 'green'}}> </i>
                     Random Text for content 
                   </li>
                   <li className="about-us">
-                  <i class="fa-solid fa-check" style={{color: 'green'}}> </i>Random Text for content</li>
+                  <i className="fa-solid fa-check" style={{color: 'green'}}> </i>Random Text for content</li>
                   <li className="about-us">
-                  <i class="fa-solid fa-check" style={{color: 'green'}}> </i>Random Text for content</li>
+                  <i className="fa-solid fa-check" style={{color: 'green'}}> </i>Random Text for content</li>
                   <li className="about-us">
-                  <i class="fa-solid fa-check" style={{color: 'green'}}> </i>Random Text for content</li>
+                  <i className="fa-solid fa-check" style={{color: 'green'}}> </i>Random Text for content</li>
                 </ul>
             </section>
         </div>
