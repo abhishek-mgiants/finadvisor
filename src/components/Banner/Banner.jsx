@@ -2,7 +2,7 @@ import './Banner.css'
 const Banner = () => {
   return (
     <div className='banner-container'>
-        <div className='banner-text-container' >
+        {/* <div className='banner-text-container' >
             <header>
                 Who We Are
             </header>
@@ -23,7 +23,7 @@ const Banner = () => {
         </div>
         <div className='banner-img-container'>
                 
-        </div>
+        </div> */}
 
     </div>
   )

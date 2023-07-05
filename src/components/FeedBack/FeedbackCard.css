@@ -41,7 +41,7 @@
   height: 350px;
   padding: 20px;
   border: 1px solid black;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease-in-out;
@@ -56,7 +56,7 @@
   width: 100%;
   height: 200px;
   object-fit: cover;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   margin-bottom: 10px;
 }
 
@@ -92,4 +92,23 @@
 
 .right-arrow {
   grid-column: 3;
+
+}
+.diamond-right{
+  width: 150px;
+  height: 150px;  
+  transition: all 0.5s;
+}
+.diamond-right:hover{
+  padding-left: 10px;
+}
+.diamond-left{
+  width: 150px;
+  height: 150px;
+  rotate: 180deg;
+  transition: all 0.5s;
+
+}
+.diamond-left:hover{
+  padding-left: 10px;
 }

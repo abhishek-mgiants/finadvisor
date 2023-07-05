@@ -7,9 +7,12 @@
     
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
-    background-color: rgb(192, 240, 240);
+    background: url('src/assets/Bannerbg.jpg');
+    background-size:   99vw 110vh;
+    background-repeat:no-repeat ;
+    
 }
 .banner-text-container{
     display: flex;

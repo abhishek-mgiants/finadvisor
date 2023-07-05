@@ -7,6 +7,8 @@
 .navbar-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  background-color: rgb(84, 84, 247);
+  height: 80px;
 }
 
 .navbar-logo {
@@ -29,11 +31,14 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  margin-left: 100px; /* Adjust the margin value as needed */
+  margin-left: 200px; /* Adjust the margin value as needed */
+  margin-top: 20px;
+  color: aliceblue;
 }
 
 .navlinks a:link {
   text-decoration: none;
+  
 }
 
 
@@ -46,8 +51,9 @@
 
 .navlinks .links:hover {
   filter: drop-shadow(0 10px 14px white);
-  border-left: 2px solid black;
-  border-right: 2px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  
 }
 
 body {
