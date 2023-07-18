@@ -1,13 +1,20 @@
-import './Home.css'
+import './Home.css' 
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 const Home = () => {
+  useEffect(()=>{
+    AOS.init({duration:1000})
+   },[]) 
   return (
     <div className="home-container" >
         <div className="text-container">
-         <div className="home-heading">
-         We're open <br /> and here to help
+         <div data-aos='zoom-in' className="home-heading">
+         Don't change your ideas <br /> Change tax
          </div>
          <div className="text-content">
-            <p>If you missed the tax deadline or filed an extension, we're  available to help you get your taxes done. File as soon as possible to limit penalties and interest if you owe.</p>
+            <p>We're the financial experts you need to help your business achieve its full
+potential. Let us help you multiply your profits, cut your taxes, and stay compliant.</p>
          </div>
          <div className="button-section">
             <button className="btn">Contact Us</button>

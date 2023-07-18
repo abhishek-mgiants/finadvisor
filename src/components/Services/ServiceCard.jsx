@@ -1,7 +1,12 @@
-import React from 'react';
-import './ServiceCard.css'; // Assuming you have a separate CSS file for styling
 
+import './ServiceCard.css'; // Assuming you have a separate CSS file for styling
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 const ServiceCard = () => {
+  useEffect(()=>{
+    AOS.init()
+   },[]) 
   const services = [
     {
       imgPath: 'src/assets/TaxationTilt.png',
@@ -29,7 +34,7 @@ const ServiceCard = () => {
     <div className="service-card-container">
       {services.map((service, index) => (
         <>
-        <div className="service-card" key={index}>
+        <div data-aos='zoom-in' className="service-card" key={index}>
           <img src={service.imgPath} alt="Service" className="service-image" />
           <div className="service-details">
             <h3 className="service-heading">{service.heading}</h3>
