@@ -6,45 +6,51 @@ const CaseStudies = () => {
     () => [
       {
         id: 1,
-        heading: 'Proactive Support',
+        heading: 'Tax Audit & Bookkeeping Simplified',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices mi elit.',
-        imgPath: 'https://www.finadvisorsllp.com/assets/images/blog/2.jpg'
+        imgPath: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dGF4JTIwYXVkaXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60'
       },
       {
         id: 2,
-        heading: 'NGO',
+        heading: 'Streamlined Operations for a Fabric Company',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices mi elit.',
-        imgPath: 'https://www.finadvisorsllp.com/assets/images/blog/1.jpg'
+        imgPath: 'https://plus.unsplash.com/premium_photo-1679860750641-0ab67ed5e69a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZG9pbmclMjB0YXhlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60'
       },
       {
         id: 3,
-        heading: 'Operating a $300M IT service company',
+        heading: 'Debt Recovery and Lower Interest Rates',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices mi elit.',
         imgPath: 'https://images.pexels.com/photos/5905522/pexels-photo-5905522.jpeg?auto=compress&cs=tinysrgb&w=600'
       },
       {
         id: 4,
-        heading: 'random text',
+        heading: 'Government Tender Success on GEM Portal',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices mi elit.',
-        imgPath: 'https://images.pexels.com/photos/5905522/pexels-photo-5905522.jpeg?auto=compress&cs=tinysrgb&w=600'
+        imgPath: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_bCBOQTerqu4diXPKlxzpAHT850Gu4osmpg&usqp=CAU'
       },
       {
         id: 5,
-        heading: 'random text',
+        heading: 'One of Our Clients Receives a Whopping Refund of Rs. 12 Lakhs!',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices mi elit.',
-        imgPath: 'https://images.pexels.com/photos/5905522/pexels-photo-5905522.jpeg?auto=compress&cs=tinysrgb&w=600'
+        imgPath: 'https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmluYW5jZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60'
+      },
+      {
+        id: 6,
+        heading: 'How We Helped a Client Slash GST Rate from 18% to 6% Legally!',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices mi elit.',
+        imgPath: 'https://images.pexels.com/photos/68912/pexels-photo-68912.jpeg?auto=compress&cs=tinysrgb&w=600'
       }
     ],
     []
   );
 
   const [activeIndex, setActiveIndex] = useState(0);
-  const [cardData, setCardData] = useState(caseStudiesData.slice(0, 3));
+  const [cardData, setCardData] = useState(caseStudiesData.slice(0, 4));
 
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((prevIndex) => (prevIndex + 1) % caseStudiesData.length);
-    }, 2000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, [caseStudiesData.length]);
@@ -59,9 +65,9 @@ const CaseStudies = () => {
   return (
     <div className="casestudies-container">
       <header>
-        <h1>Client Stories</h1>
+        <span>Client Stories</span>
         <p>
-          Our firm has served many projects in the startup, Manufacturing, FMCG, IT Services, Charitable trusts (NGO’s and Schools), Electrical and Commercial Real Estate sectors successfully.
+          Here are some Amazing clients stories showing our Proof of work, how we helped our clients!
         </p>
       </header>
       <div className="casestudies-card-container">

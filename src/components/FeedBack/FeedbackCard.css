@@ -2,9 +2,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   padding: 20px;
-  background-color: rgb(229, 241, 237);
+  /* background-color: rgb(229, 241, 237); */
+  width: 100vw;
+  height: 100vh;
+  background: url('src/assets/FeedBackBg.png');
+  background-size: 100vw 100vh;
 }
 
 .heading {
@@ -13,7 +17,11 @@
   
 }
 .heading h2{
-  font-size: 32px;
+  font-size: 36px;
+  font-family: Bodoni Moda;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
 }
 
 .feedback-card-wrapper {

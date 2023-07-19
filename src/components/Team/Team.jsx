@@ -33,19 +33,19 @@ const Team = () => {
     //   </div>
     // </div>
     <>
-    
-     <div className="team-container">
+      <div className="mainTeam">
+      <div className="team-container">
       <div className="team-information">
         <img src="path_to_image" alt="Team Member" />
         <div className="name-designation">
-          <h3>John Doe</h3>
+          <h3>CA Tanmay Patra</h3>
           <p>Our Specialist</p>
         </div>
       </div>
 
       <div className="team-information">
       <div className="name-designation">
-          <h3>Jane Smith</h3>
+          <h3>CA Alvi Ahmed</h3>
           <p>Our Specialist</p>
         </div>
         <img src="path_to_image" alt="Team Member" />
@@ -56,6 +56,8 @@ const Team = () => {
 
       </div>
     </div>
+      </div>
+     
    
     </>
   );

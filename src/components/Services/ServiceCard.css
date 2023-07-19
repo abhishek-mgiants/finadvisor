@@ -1,7 +1,24 @@
+.mainServiceContainer{
+  width: 100vw;
+  height: 100vh;
+  /* background-color: #f1f8ff; */
+  background: url('src/assets/Banner2.jpg');
+  background-size: 100vw 100vh;
+}
+.serviceHeading{
+  font-size: 48px;
+  font-family: Bodoni Moda;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: left;
+  padding-top:50px ;
+  padding-left: 50px;
+}
 .service-card-container {
+
     display: flex;
     justify-content: space-evenly;
-    background-color: #f1f8ff;
+    /* background-color: #f1f8ff; */
     padding: 100px;
     
   }

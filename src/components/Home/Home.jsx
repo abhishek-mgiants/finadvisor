@@ -10,7 +10,7 @@ const Home = () => {
     <div className="home-container" >
         <div className="text-container">
          <div data-aos='zoom-in' className="home-heading">
-         Don't change your ideas <br /> Change tax
+         Don't Change Your Ideas <br /> Change Tax
          </div>
          <div className="text-content">
             <p>We're the financial experts you need to help your business achieve its full

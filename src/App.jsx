@@ -12,6 +12,7 @@ import WhyUs from './components/WhyUs/WhyUs';
 import Footer from './components/Footer/Footer';
 import CaseStudies from './components/CaseStudy/CaseStudy';
 import ExperimentContainer from './components/Experiment/Experiment';
+import WhyTaxvitt from './components/WhyTaxvitt/WhyTaxvitt';
 
 const App = () => {
   return (
@@ -21,9 +22,11 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/taxation" element={<Taxation />} />
       </Routes>
+      
       <Banner />
       <ServiceCard />
-      <WhyUs />
+      <WhyTaxvitt/>
+      {/* <WhyUs /> */}
       <Team/>
       <CaseStudies/>
       <FeedbackCard/>

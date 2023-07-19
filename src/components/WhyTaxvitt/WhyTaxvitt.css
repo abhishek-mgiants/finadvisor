@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+
+
+.whyTaxVit-container{
+    width: 100%;
+    height: 100vh;
+    background: url('src/assets/Bannerbg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    padding-top:40px; 
+    color: white;
+    position: relative;
+
+}
+.whyTaxVit-container h1{
+    position: absolute;
+    top: 9vh;
+    left: 7vw;
+    /* transform: rotate(90deg); */
+    font-size: 44px;
+    /* margin-left:200px ; */
+    /* border: 1px solid red; */
+    width: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Bodoni Moda;
+    letter-spacing: 2px;
+}
+.whyTaxvit-points{
+   width: 800px;
+   height: 300px;
+   /* border: 1px solid red; */
+   margin-left: 32vw;
+   /* border: 1px solid red; */
+   
+   
+   
+}
+.whyTaxvit-points li span{
+    font-size: 18px;
+    color: rgb(240, 123, 123);
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    font-family: Bodoni Moda;
+
+}
+.whyTaxvit-points li p{
+    text-align: justify;
+    font-size: 12.5px;
+    font-weight: 100;
+}
+.whyTaxvit-points p .description{
+    width: 780px;
+    text-align: justify;
+    margin-left: 30px;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+    font-family: Lato;
+    word-spacing: 2px;
+}

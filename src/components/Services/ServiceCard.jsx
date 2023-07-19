@@ -4,9 +4,7 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 const ServiceCard = () => {
-  useEffect(()=>{
-    AOS.init()
-   },[]) 
+  AOS.init({duration:1000})
   const services = [
     {
       imgPath: 'src/assets/TaxationTilt.png',
@@ -31,24 +29,31 @@ const ServiceCard = () => {
   ];
 
   return (
-    <div className="service-card-container">
-      {services.map((service, index) => (
-        <>
-        <div data-aos='zoom-in' className="service-card" key={index}>
-          <img src={service.imgPath} alt="Service" className="service-image" />
-          <div className="service-details">
-            <h3 className="service-heading">{service.heading}</h3>
-            <div>
-           
-            </div>
-          </div>
-        </div>
+   <div className='mainServiceContainer'>
+ <div className="serviceHeading">
+        We're Open and Here to Help You
+      </div>
+      <div className="service-card-container">
+     
+     {services.map((service, index) => (
+       <> 
+       <div data-aos='zoom-in-down' className="service-card" key={index}>
+         <img src={service.imgPath} alt="Service" className="service-image" />
+         <div className="service-details">
+           <h3 className="service-heading">{service.heading}</h3>
+           <div>
+          
+           </div>
+         </div>
+       </div>
+      
        
-        
-        </>
-        
-      ))}
-    </div>
+       </>
+       
+     ))}
+   </div>
+   </div>
+  
   );
 };
 
