@@ -6,12 +6,12 @@ import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
 // import Portfolio from './components/Portfolio/Portfolio';
 import ServiceCard from './components/Services/ServiceCard';
-import Taxation from './components/Taxation/Taxation';
+// import Taxation from './components/Taxation/Taxation';
 import Team from './components/Team/Team';
-import WhyUs from './components/WhyUs/WhyUs';
+// import WhyUs from './components/WhyUs/WhyUs';
 import Footer from './components/Footer/Footer';
 import CaseStudies from './components/CaseStudy/CaseStudy';
-import ExperimentContainer from './components/Experiment/Experiment';
+// import ExperimentContainer from './components/Experiment/Experiment';
 import WhyTaxvitt from './components/WhyTaxvitt/WhyTaxvitt';
 
 const App = () => {
@@ -19,19 +19,17 @@ const App = () => {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/taxation" element={<Taxation />} />
+        <Route path="/finadvisor" element={<Home />} />
+        {/* <Route path="/taxation" element={<Taxation />} /> */}
       </Routes>
-      
       <Banner />
       <ServiceCard />
       <WhyTaxvitt/>
-      {/* <WhyUs /> */}
       <Team/>
       <CaseStudies/>
       <FeedbackCard/>
-      <Footer />
-      {/* <ExperimentContainer/> */}
+      <Footer />  
+   
     </Router>
   );
 };
