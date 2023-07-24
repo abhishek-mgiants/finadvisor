@@ -52,7 +52,7 @@ const Team = () => {
         
       </div>
       <div className="icon-container">
-      <img className='taxation-img' src="src/assets/Taxation.png" alt="" />
+      <img className='taxation-img' src="assets/Taxation.png" alt="" />
 
       </div>
     </div>

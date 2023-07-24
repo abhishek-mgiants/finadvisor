@@ -60,7 +60,7 @@ const FeedbackCard = () => {
       </div>
       <div className="feedback-card-wrapper">
         <div className="left-arrow" onClick={prevSlide}>
-        <img className='diamond-left' src="src/assets/Diamond.png" alt="" />
+        <img className='diamond-left' src="assets/Diamond.png" alt="" />
         </div>
         <div className="feedback-cards-container">
           {renderCards().map((feedback, index) => (
@@ -73,7 +73,7 @@ const FeedbackCard = () => {
         </div>
         <div className="right-arrow" onClick={nextSlide}>
           {/* <i className="fas fa-arrow-right"></i> */}
-          <img className='diamond-right' src="src/assets/Diamond.png" alt="" />
+          <img className='diamond-right' src="assets/Diamond.png" alt="" />
         </div>
       </div>
     </div>

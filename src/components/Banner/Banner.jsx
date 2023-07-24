@@ -8,6 +8,9 @@ const Banner = () => {
         <div className="headerVit">
           Who We Are
         </div>
+        <div className="whyTaxImg">
+          <img src="assets/Taxation.png" alt="" />
+        </div>
         <div className="whyTaxvit-para">
         We are the leading tax preparation and consulting firm that has been serving individuals and
 businesses in the india.

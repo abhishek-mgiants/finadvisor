@@ -7,25 +7,50 @@ const ServiceCard = () => {
   AOS.init({duration:1000})
   const services = [
     {  id:1,
-      imgPath: 'src/assets/TaxationTilt.png',
+      imgPath: 'assets/TaxationTilt.png',
       heading: 'Taxation',
       description: 'Description random text to fill the container ',
     }, 
     {  id:2,
-      imgPath: 'src/assets/Compliance.png',
+      imgPath: 'assets/Compliance.png',
       heading: 'Compliance',
       description: 'Description random text to fill the container ',
     },
     { id:3,
-      imgPath: 'src/assets/StartUp.png',
+      imgPath: 'assets/StartUp.png',
       heading: 'Startup',
       description: 'Description random text to fill the container ',
     },
     {  id:4,
-      imgPath: 'src/assets/Funding.png',
+      imgPath: 'assets/Funding.png',
       heading: 'Funding',
       description: 'Description random text to fill the container ',
+    },
+    {
+      id:5,
+      imgPath: 'assets/StartUp.png',
+      heading: 'GST',
+      description:'Random Text'
+    },
+    {
+      id:6,
+      imgPath: 'assets/StartUp.png',
+      heading: 'GST',
+      description:'Random Text'
+    },
+    {
+      id:7,
+      imgPath: 'assets/StartUp.png',
+      heading: 'GST',
+      description:'Random Text'
+    },
+    {
+      id:8,
+      imgPath: 'assets/StartUp.png',
+      heading: 'GST',
+      description:'Random Text'
     }
+ 
   ];
 
   return (

@@ -65,7 +65,7 @@ const CaseStudies = () => {
   return (
     <div className="casestudies-container">
       <header>
-        <span>Client Stories</span>
+        <span>Client Success Stories</span>
         <p>
           Here are some Amazing clients stories showing our Proof of work, how we helped our clients!
         </p>

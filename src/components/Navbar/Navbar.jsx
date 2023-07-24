@@ -33,7 +33,7 @@ const Navbar = () => {
       <div className="navbar-container">
         <div className="navbar-logo">
           <p className="logo-text" onClick={handleLogoClick}>
-            <img src="src/assets/TaxVITT2.png" style={{ width: '160px', height: '60px' }} alt="" />
+            <img src="assets/TaxVITT2.png" style={{ width: '160px', height: '60px' }} alt="" />
           </p>
         </div>
         <div>
