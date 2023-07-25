@@ -94,6 +94,16 @@
     background: url('src/assets/Banner2.jpg');
     background-size: 100vw 100vh;
     padding-top: 20vh;
+    position: relative;
+  }
+  .mainTeam h1{
+    position: absolute;
+    top: 5vh;
+    left: 40vw;
+    font-size: 32px;
+    font-family: Bodoni Moda;
+    font-weight: bold;
+
   }
 
    .team-container {

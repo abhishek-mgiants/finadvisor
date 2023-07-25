@@ -34,7 +34,9 @@ const Team = () => {
     // </div>
     <>
       <div className="mainTeam">
+      <h1>Our Team of Experts</h1>
       <div className="team-container">
+        
       <div className="team-information">
         <img src="path_to_image" alt="Team Member" />
         <div className="name-designation">
